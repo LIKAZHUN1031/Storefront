@@ -10,7 +10,7 @@ DATABASES = {
     'default': dj_database_url.config()  # 查找数据库url的环境变量，它将解析连接字符串返回一个字典
 }
 
-REDIS_URL = os.environ['REDIS_URL']
+REDIS_URL = os.environ['REDISCLOUD_URL']
 
 CELERY_BROKER_URL = REDIS_URL
 
