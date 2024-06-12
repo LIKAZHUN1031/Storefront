@@ -23,6 +23,7 @@ gunicorn = "*"
 rabbitmq = "*"
 dj-database-url = "*"
 django-silk = "*"
+django-redis = "*"
 
 [dev-packages]
 pytest = "*"
